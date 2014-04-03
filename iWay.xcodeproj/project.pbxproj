@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB938B618ED88A800B93B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB938B518ED88A800B93B3C /* Foundation.framework */; };
+		ECB938B818ED88A800B93B3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB938B718ED88A800B93B3C /* CoreGraphics.framework */; };
+		ECB938BA18ED88A800B93B3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB938B918ED88A800B93B3C /* UIKit.framework */; };
+		ECB938C018ED88A800B93B3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB938BE18ED88A800B93B3C /* InfoPlist.strings */; };
+		ECB938C218ED88A800B93B3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB938C118ED88A800B93B3C /* main.m */; };
+		ECB938C618ED88A800B93B3C /* iWayAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB938C518ED88A800B93B3C /* iWayAppAppDelegate.m */; };
+		ECB938C918ED88A800B93B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB938C718ED88A800B93B3C /* Main.storyboard */; };
+		ECB938CC18ED88A800B93B3C /* iWayAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB938CB18ED88A800B93B3C /* iWayAppViewController.m */; };
+		ECB938CE18ED88A800B93B3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB938CD18ED88A800B93B3C /* Images.xcassets */; };
+		ECB938D518ED88A800B93B3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB938D418ED88A800B93B3C /* XCTest.framework */; };
+		ECB938D618ED88A800B93B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB938B518ED88A800B93B3C /* Foundation.framework */; };
+		ECB938D718ED88A800B93B3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB938B918ED88A800B93B3C /* UIKit.framework */; };
+		ECB938DF18ED88A800B93B3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB938DD18ED88A800B93B3C /* InfoPlist.strings */; };
+		ECB938E118ED88A800B93B3C /* iWayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB938E018ED88A800B93B3C /* iWayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB938D818ED88A800B93B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB938AA18ED88A800B93B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB938B118ED88A800B93B3C;
+			remoteInfo = iWay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB938B218ED88A800B93B3C /* iWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB938B518ED88A800B93B3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECB938B718ED88A800B93B3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECB938B918ED88A800B93B3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECB938BD18ED88A800B93B3C /* iWay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWay-Info.plist"; sourceTree = "<group>"; };
+		ECB938BF18ED88A800B93B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECB938C118ED88A800B93B3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECB938C318ED88A800B93B3C /* iWay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWay-Prefix.pch"; sourceTree = "<group>"; };
+		ECB938C418ED88A800B93B3C /* iWayAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWayAppAppDelegate.h; sourceTree = "<group>"; };
+		ECB938C518ED88A800B93B3C /* iWayAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWayAppAppDelegate.m; sourceTree = "<group>"; };
+		ECB938C818ED88A800B93B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB938CA18ED88A800B93B3C /* iWayAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWayAppViewController.h; sourceTree = "<group>"; };
+		ECB938CB18ED88A800B93B3C /* iWayAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWayAppViewController.m; sourceTree = "<group>"; };
+		ECB938CD18ED88A800B93B3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECB938D318ED88A800B93B3C /* iWayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB938D418ED88A800B93B3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECB938DC18ED88A800B93B3C /* iWayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWayTests-Info.plist"; sourceTree = "<group>"; };
+		ECB938DE18ED88A800B93B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECB938E018ED88A800B93B3C /* iWayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB938AF18ED88A800B93B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB938B818ED88A800B93B3C /* CoreGraphics.framework in Frameworks */,
+				ECB938BA18ED88A800B93B3C /* UIKit.framework in Frameworks */,
+				ECB938B618ED88A800B93B3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB938D018ED88A800B93B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB938D518ED88A800B93B3C /* XCTest.framework in Frameworks */,
+				ECB938D718ED88A800B93B3C /* UIKit.framework in Frameworks */,
+				ECB938D618ED88A800B93B3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB938A918ED88A800B93B3C = {
+			isa = PBXGroup;
+			children = (
+				ECB938BB18ED88A800B93B3C /* iWay */,
+				ECB938DA18ED88A800B93B3C /* iWayTests */,
+				ECB938B418ED88A800B93B3C /* Frameworks */,
+				ECB938B318ED88A800B93B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB938B318ED88A800B93B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB938B218ED88A800B93B3C /* iWay.app */,
+				ECB938D318ED88A800B93B3C /* iWayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB938B418ED88A800B93B3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB938B518ED88A800B93B3C /* Foundation.framework */,
+				ECB938B718ED88A800B93B3C /* CoreGraphics.framework */,
+				ECB938B918ED88A800B93B3C /* UIKit.framework */,
+				ECB938D418ED88A800B93B3C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB938BB18ED88A800B93B3C /* iWay */ = {
+			isa = PBXGroup;
+			children = (
+				ECB938C418ED88A800B93B3C /* iWayAppAppDelegate.h */,
+				ECB938C518ED88A800B93B3C /* iWayAppAppDelegate.m */,
+				ECB938C718ED88A800B93B3C /* Main.storyboard */,
+				ECB938CA18ED88A800B93B3C /* iWayAppViewController.h */,
+				ECB938CB18ED88A800B93B3C /* iWayAppViewController.m */,
+				ECB938CD18ED88A800B93B3C /* Images.xcassets */,
+				ECB938BC18ED88A800B93B3C /* Supporting Files */,
+			);
+			path = iWay;
+			sourceTree = "<group>";
+		};
+		ECB938BC18ED88A800B93B3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB938BD18ED88A800B93B3C /* iWay-Info.plist */,
+				ECB938BE18ED88A800B93B3C /* InfoPlist.strings */,
+				ECB938C118ED88A800B93B3C /* main.m */,
+				ECB938C318ED88A800B93B3C /* iWay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB938DA18ED88A800B93B3C /* iWayTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB938E018ED88A800B93B3C /* iWayTests.m */,
+				ECB938DB18ED88A800B93B3C /* Supporting Files */,
+			);
+			path = iWayTests;
+			sourceTree = "<group>";
+		};
+		ECB938DB18ED88A800B93B3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB938DC18ED88A800B93B3C /* iWayTests-Info.plist */,
+				ECB938DD18ED88A800B93B3C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB938B118ED88A800B93B3C /* iWay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB938E418ED88A800B93B3C /* Build configuration list for PBXNativeTarget "iWay" */;
+			buildPhases = (
+				ECB938AE18ED88A800B93B3C /* Sources */,
+				ECB938AF18ED88A800B93B3C /* Frameworks */,
+				ECB938B018ED88A800B93B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iWay;
+			productName = iWay;
+			productReference = ECB938B218ED88A800B93B3C /* iWay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB938D218ED88A800B93B3C /* iWayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB938E718ED88A800B93B3C /* Build configuration list for PBXNativeTarget "iWayTests" */;
+			buildPhases = (
+				ECB938CF18ED88A800B93B3C /* Sources */,
+				ECB938D018ED88A800B93B3C /* Frameworks */,
+				ECB938D118ED88A800B93B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB938D918ED88A800B93B3C /* PBXTargetDependency */,
+			);
+			name = iWayTests;
+			productName = iWayTests;
+			productReference = ECB938D318ED88A800B93B3C /* iWayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB938AA18ED88A800B93B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iWayApp;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "stefano belfanti";
+				TargetAttributes = {
+					ECB938D218ED88A800B93B3C = {
+						TestTargetID = ECB938B118ED88A800B93B3C;
+					};
+				};
+			};
+			buildConfigurationList = ECB938AD18ED88A800B93B3C /* Build configuration list for PBXProject "iWay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB938A918ED88A800B93B3C;
+			productRefGroup = ECB938B318ED88A800B93B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB938B118ED88A800B93B3C /* iWay */,
+				ECB938D218ED88A800B93B3C /* iWayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB938B018ED88A800B93B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB938CE18ED88A800B93B3C /* Images.xcassets in Resources */,
+				ECB938C018ED88A800B93B3C /* InfoPlist.strings in Resources */,
+				ECB938C918ED88A800B93B3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB938D118ED88A800B93B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB938DF18ED88A800B93B3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB938AE18ED88A800B93B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB938CC18ED88A800B93B3C /* iWayAppViewController.m in Sources */,
+				ECB938C618ED88A800B93B3C /* iWayAppAppDelegate.m in Sources */,
+				ECB938C218ED88A800B93B3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB938CF18ED88A800B93B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB938E118ED88A800B93B3C /* iWayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB938D918ED88A800B93B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB938B118ED88A800B93B3C /* iWay */;
+			targetProxy = ECB938D818ED88A800B93B3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB938BE18ED88A800B93B3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB938BF18ED88A800B93B3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECB938C718ED88A800B93B3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB938C818ED88A800B93B3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB938DD18ED88A800B93B3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB938DE18ED88A800B93B3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB938E218ED88A800B93B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECB938E318ED88A800B93B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB938E518ED88A800B93B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWay/iWay-Prefix.pch";
+				INFOPLIST_FILE = "iWay/iWay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECB938E618ED88A800B93B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWay/iWay-Prefix.pch";
+				INFOPLIST_FILE = "iWay/iWay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECB938E818ED88A800B93B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iWay.app/iWay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWay/iWay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iWayTests/iWayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECB938E918ED88A800B93B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iWay.app/iWay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWay/iWay-Prefix.pch";
+				INFOPLIST_FILE = "iWayTests/iWayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB938AD18ED88A800B93B3C /* Build configuration list for PBXProject "iWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB938E218ED88A800B93B3C /* Debug */,
+				ECB938E318ED88A800B93B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB938E418ED88A800B93B3C /* Build configuration list for PBXNativeTarget "iWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB938E518ED88A800B93B3C /* Debug */,
+				ECB938E618ED88A800B93B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB938E718ED88A800B93B3C /* Build configuration list for PBXNativeTarget "iWayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB938E818ED88A800B93B3C /* Debug */,
+				ECB938E918ED88A800B93B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB938AA18ED88A800B93B3C /* Project object */;
+}
