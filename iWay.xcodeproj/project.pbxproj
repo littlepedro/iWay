@@ -13,7 +13,6 @@
 		ECB938C018ED88A800B93B3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB938BE18ED88A800B93B3C /* InfoPlist.strings */; };
 		ECB938C218ED88A800B93B3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB938C118ED88A800B93B3C /* main.m */; };
 		ECB938C618ED88A800B93B3C /* iWayAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB938C518ED88A800B93B3C /* iWayAppAppDelegate.m */; };
-		ECB938C918ED88A800B93B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB938C718ED88A800B93B3C /* Main.storyboard */; };
 		ECB938CC18ED88A800B93B3C /* iWayAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB938CB18ED88A800B93B3C /* iWayAppViewController.m */; };
 		ECB938CE18ED88A800B93B3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB938CD18ED88A800B93B3C /* Images.xcassets */; };
 		ECB938D518ED88A800B93B3C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB938D418ED88A800B93B3C /* XCTest.framework */; };
@@ -21,6 +20,8 @@
 		ECB938D718ED88A800B93B3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB938B918ED88A800B93B3C /* UIKit.framework */; };
 		ECB938DF18ED88A800B93B3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB938DD18ED88A800B93B3C /* InfoPlist.strings */; };
 		ECB938E118ED88A800B93B3C /* iWayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB938E018ED88A800B93B3C /* iWayTests.m */; };
+		ECB938EB18ED8AE300B93B3C /* iWayAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB938EA18ED8AE300B93B3C /* iWayAppViewController.xib */; };
+		ECDB901018ED9B5000FB97AE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDB900F18ED9B5000FB97AE /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,6 @@
 		ECB938C318ED88A800B93B3C /* iWay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWay-Prefix.pch"; sourceTree = "<group>"; };
 		ECB938C418ED88A800B93B3C /* iWayAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWayAppAppDelegate.h; sourceTree = "<group>"; };
 		ECB938C518ED88A800B93B3C /* iWayAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWayAppAppDelegate.m; sourceTree = "<group>"; };
-		ECB938C818ED88A800B93B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECB938CA18ED88A800B93B3C /* iWayAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWayAppViewController.h; sourceTree = "<group>"; };
 		ECB938CB18ED88A800B93B3C /* iWayAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWayAppViewController.m; sourceTree = "<group>"; };
 		ECB938CD18ED88A800B93B3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		ECB938DC18ED88A800B93B3C /* iWayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWayTests-Info.plist"; sourceTree = "<group>"; };
 		ECB938DE18ED88A800B93B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ECB938E018ED88A800B93B3C /* iWayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWayTests.m; sourceTree = "<group>"; };
+		ECB938EA18ED8AE300B93B3C /* iWayAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iWayAppViewController.xib; sourceTree = "<group>"; };
+		ECDB900F18ED9B5000FB97AE /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDB901018ED9B5000FB97AE /* CoreMotion.framework in Frameworks */,
 				ECB938B818ED88A800B93B3C /* CoreGraphics.framework in Frameworks */,
 				ECB938BA18ED88A800B93B3C /* UIKit.framework in Frameworks */,
 				ECB938B618ED88A800B93B3C /* Foundation.framework in Frameworks */,
@@ -82,6 +85,7 @@
 		ECB938A918ED88A800B93B3C = {
 			isa = PBXGroup;
 			children = (
+				ECB938EA18ED8AE300B93B3C /* iWayAppViewController.xib */,
 				ECB938BB18ED88A800B93B3C /* iWay */,
 				ECB938DA18ED88A800B93B3C /* iWayTests */,
 				ECB938B418ED88A800B93B3C /* Frameworks */,
@@ -101,6 +105,7 @@
 		ECB938B418ED88A800B93B3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ECDB900F18ED9B5000FB97AE /* CoreMotion.framework */,
 				ECB938B518ED88A800B93B3C /* Foundation.framework */,
 				ECB938B718ED88A800B93B3C /* CoreGraphics.framework */,
 				ECB938B918ED88A800B93B3C /* UIKit.framework */,
@@ -114,7 +119,6 @@
 			children = (
 				ECB938C418ED88A800B93B3C /* iWayAppAppDelegate.h */,
 				ECB938C518ED88A800B93B3C /* iWayAppAppDelegate.m */,
-				ECB938C718ED88A800B93B3C /* Main.storyboard */,
 				ECB938CA18ED88A800B93B3C /* iWayAppViewController.h */,
 				ECB938CB18ED88A800B93B3C /* iWayAppViewController.m */,
 				ECB938CD18ED88A800B93B3C /* Images.xcassets */,
@@ -200,6 +204,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "stefano belfanti";
 				TargetAttributes = {
+					ECB938B118ED88A800B93B3C = {
+						DevelopmentTeam = 567VCAGMSM;
+					};
 					ECB938D218ED88A800B93B3C = {
 						TestTargetID = ECB938B118ED88A800B93B3C;
 					};
@@ -229,9 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB938EB18ED8AE300B93B3C /* iWayAppViewController.xib in Resources */,
 				ECB938CE18ED88A800B93B3C /* Images.xcassets in Resources */,
 				ECB938C018ED88A800B93B3C /* InfoPlist.strings in Resources */,
-				ECB938C918ED88A800B93B3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +288,6 @@
 				ECB938BF18ED88A800B93B3C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		ECB938C718ED88A800B93B3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECB938C818ED88A800B93B3C /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		ECB938DD18ED88A800B93B3C /* InfoPlist.strings */ = {
@@ -379,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iWay/iWay-Prefix.pch";
 				INFOPLIST_FILE = "iWay/iWay-Info.plist";
@@ -392,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iWay/iWay-Prefix.pch";
 				INFOPLIST_FILE = "iWay/iWay-Info.plist";
@@ -461,6 +462,7 @@
 				ECB938E618ED88A800B93B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECB938E718ED88A800B93B3C /* Build configuration list for PBXNativeTarget "iWayTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +471,7 @@
 				ECB938E918ED88A800B93B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
